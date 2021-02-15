@@ -16,9 +16,9 @@ Customer retention is a mainstay for profitability and success of businesses. Wi
 Customer retention is key to driving a company's profitability. Customer retention allows for companies to reduce time and costs spent by the Sales department driving new business, and helps businesses maintain a stable, reliable flow of income. In addition, customers who are happy with their service and perceive that they are getting a strong value for their product, are less likely to leave the service, and more likely to recommend the products and services they are receiveing to their colleagues, family, and friends. As Tamulienea and Gabryteb have pointed out in a case study of Lithuanian mobile operators, customers who are satisfied end up being growth opportunities for future revenue of the business by a process called "relationship marketing." Thus, focusing on retention reduces loss of revenue and inadvertently cultivates future sales.
 Currently, 36.2% of customers churned out of the business. Additionally, the base of customers who do not churn generate almost 13.2 million dollars while customers who have churned generated just under 2.9 million dollars in total revenue. If the 36.2% of customers who had churned had not churned--based upon the current average lifetime revenue generated per customers--Telco could have received an additional 1.9 million dollars in revenue, not including the additional customers and revenue that could have been achieved through relationship marketing. As a whole, maintaining a strong client base by retaining customers is a key component to the vitality of your business. Through this research and development, I will be answering/addressing the following questions:
 <ol>
-  <li> Can churn be explained and understood through a classification model? <li>
-  <li> If so, which features are associated with churn? <li>
-  <li> How can Telco reduce churn and other businesses learn how to reduce customer churn? <li>
+  <li> Can churn be explained and understood through a classification model?
+  <li> If so, which features are associated with churn?
+  <li> How can Telco reduce churn and other businesses learn how to reduce customer churn?
 </ol>
 
 The model I created aims to be able to classify whether or not a customer successfully churns.
