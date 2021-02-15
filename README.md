@@ -110,6 +110,7 @@ For additional info, contact me here: [ Matthew Lipman,](mailto:matthewrlipman@g
 ├── EDA, Preprocessing, Visualizing Relationships.ipynb
 ├── images
     ├── categoricalfeatures.png
+    ├── confusionmatrices.png
     ├── confusionmatrix.png
     ├── decisiontree.png
     ├── modelcomparisons.png
