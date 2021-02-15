@@ -10,10 +10,15 @@
 
 Customer retention is a mainstay for profitability and success of businesses. With the telecommunications industry's ever-changing technologies and rapidly increasing user base, Internet and phone providers need to continually advance their products and services to meet their customers' growing expectations and needs. Using data provided by IBM Watson Analytics about Telco, a telecommunications company, I have analyzed key features driving a customer from leaving the service. With over seven thousand customers and over twenty different features and attributes provided about each customer, this dataset provides a strong basis to classify how and why a customer churns out of the service. By understanding, analyzing, and modeling the data, I am able to correctly classify 86.8% of customers who churned out and left the service based upon how the customers interact with specific features and parameters.
 
+![Tenure](/images/tenurevschurn.png)
+
 
 ## Business Problem
 
 Customer retention is key to driving a company's profitability. Customer retention allows for companies to reduce time and costs spent by the Sales department driving new business, and helps businesses maintain a stable, reliable flow of income. In addition, customers who are happy with their service and perceive that they are getting a strong value for their product, are less likely to leave the service, and more likely to recommend the products and services they are receiveing to their colleagues, family, and friends. As Tamulienea and Gabryteb have pointed out in a case study of Lithuanian mobile operators, customers who are satisfied end up being growth opportunities for future revenue of the business by a process called "relationship marketing." Thus, focusing on retention reduces loss of revenue and inadvertently cultivates future sales.
+
+![Churn](/images/totalrevenue.png)
+
 Currently, 36.2% of customers churned out of the business. Additionally, the base of customers who do not churn generate almost 13.2 million dollars while customers who have churned generated just under 2.9 million dollars in total revenue. If the 36.2% of customers who had churned had not churned--based upon the current average lifetime revenue generated per customers--Telco could have received an additional 1.9 million dollars in revenue, not including the additional customers and revenue that could have been achieved through relationship marketing. As a whole, maintaining a strong client base by retaining customers is a key component to the vitality of your business. Through this research and development, I will be answering/addressing the following questions:
 <ol>
   <li> Can churn be explained and understood through a classification model?
@@ -38,7 +43,13 @@ This classification modeling project is in accordance with the CRISP-DM method. 
 
 ## Results
 
-After conducting eight iterations of the baseline model, I was able to acheive a model recall of 86.8%, meaning 86.8% of customers who churned were correctly classified by the model. The most effective model that classified churn with 86.8% recall used the following attributes:
+![Models](/images/modelcomparisons.png)
+
+After conducting eight iterations of the baseline model, I was able to acheive a model recall of 86.8%, meaning 86.8% of customers who churned were correctly classified by the model.
+
+![Matrix](/images/confusionmatrix.png)
+
+The most effective model that classified churn with 86.8% recall used the following attributes:
 <ol>
   <li> SMOTE to address class imbalance
   <li> Feature Engineering to reduce model complexity
@@ -46,11 +57,21 @@ After conducting eight iterations of the baseline model, I was able to acheive a
   <li> Hyperparameter tuning to optimize the model's recall and reduce model overfitting
 </ol>
 
-This Decision Tree Classifier indicates that 86.8% of customers churning are able to be successfully predicted by the model. In addition, this Decision Tree illustrates:
+This Decision Tree Classifier indicates that 86.8% of customers churning are able to be successfully predicted by the model.
+
+![Tree](/images/decisiontree.png)
+
+In addition, this Decision Tree illustrates:
 <ol>
   <li> The contract type is very important to customer retention. Specifically, customers who are on a longer-term contract are strongly associated with not churning. Customers that are on atleast a 1-year contract are less likely to churn and customers that are on atleast a 2-year contract are much less likely to churn.
   <li> The amount of money spent by a customer for their services is a strong indicator of classifying whether or not they are going to churn. Customers that spend more than 59.65 dollars per month on their biill are likely to churn and customers that spend 89.85 dollars per month on their bill are highly likely to churn.
+       
+![AdvanceImage1](/images/monthlycharges_contract.png)
+    
   <li> There is a conditionality to these two features. For example, those are are on an atleast 2-year contract and paying less than 59.65 dollars per month on their monthly rate are of the subgroup of individuals who are least likely to churn.
+  
+![AdvanceImage2](/images/monthlycharges_paymentmethod.png)
+  
   <li> Customers who are on a month-to-month contract, pay more than $89.85 per month, are extremely likely to churn if they pay by automatic payments via a credit card.
 </ol>
 
@@ -65,7 +86,7 @@ This analysis leads to three recommendations for reducing customer churn:
 - **Reduce the monthly bills of customers who pay more than $59.65 per month.** By reaching out to customers who pay more than the threshold for what the model predicts are customers more likely to churn, Telco's retention team can try helping the customer save on their monthly bill. This will increase customer relations by building trust between the customer and service provider, further aiding in relationship marketing.
 - **For customers on month-to-month contracts and pay more than 89.85 dollars per month, have the retention team reach out to the customer and change their payment method from automatic credit card.** If all three of these conditionals are satisfied, customers are extremely likely to churn. With that said, by changing their payment method they become substantially less likely to churn.
 
-### Next Steps / Future Work
+### Future Work
 
 Further analyses could yield additional insights to substantiate behavior leading to customer retention.
 
