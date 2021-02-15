@@ -98,7 +98,7 @@ Further analyses could yield additional insights to substantiate behavior leadin
 
 See the full analysis in my <a href="https://github.com/mattielips/customer-retention-modeling/blob/main/Customer%20Retention%20Classification.ipynb">Jupyter Notebook</a> or review my <a href="https://github.com/mattielips/customer-retention-modeling/Presentation.pdf">Presentation</a>.
 
-For additional info, contact me here: [ Matthew Lipman,](mailto:matthewrlipman@gmail.com)
+For additional info, contact me here: [Matthew Lipman](mailto:matthewrlipman@gmail.com)
 
 
 ## Repository Structure
