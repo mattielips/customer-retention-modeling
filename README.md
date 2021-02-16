@@ -96,9 +96,9 @@ Further analyses could yield additional insights to substantiate behavior leadin
 
 ## For More Information
 
-See the full analysis in the jupyter notebook named, "Customer Retention Classification" or review our <a href="https://github.com/mattielips/customer-retention-modeling/Presentation.pdf">Presentation</a>.
+See the full analysis in my <a href="https://github.com/mattielips/customer-retention-modeling/blob/main/Customer%20Retention%20Classification.ipynb">Jupyter Notebook</a> or review my <a href="https://github.com/mattielips/customer-retention-modeling/Presentation.pdf">Presentation</a>.
 
-For additional info, contact me here: [ Matthew Lipman,](mailto:matthewrlipman@gmail.com)
+For additional info, contact me here: [Matthew Lipman](mailto:matthewrlipman@gmail.com)
 
 
 ## Repository Structure
@@ -110,6 +110,7 @@ For additional info, contact me here: [ Matthew Lipman,](mailto:matthewrlipman@g
 ├── EDA, Preprocessing, Visualizing Relationships.ipynb
 ├── images
     ├── categoricalfeatures.png
+    ├── confusionmatrices.png
     ├── confusionmatrix.png
     ├── decisiontree.png
     ├── modelcomparisons.png
@@ -120,4 +121,5 @@ For additional info, contact me here: [ Matthew Lipman,](mailto:matthewrlipman@g
     └── totalrevenue.png
 ├── Modeling.ipynb
 ├── Notebook_Playground.ipynb
+├── Presentation.pdf
 └── README.md
